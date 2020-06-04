@@ -1,0 +1,21 @@
+{
+  "Club Membership": "Membresía Clásica",
+  "membership": "Membresía",
+  "Plus": "Plus",
+  "Club": "Clasica",
+  "Plus Membership": "Membresía Plus",
+  "Language": "Idioma",
+  "Memberships": "Membresías",
+  "Tier": "Nivel",
+  "Price": "Costo",
+  "Example": "Ejemplo",
+  "Discounts in establishments outside the club": "Descuentos en establecimientos fuera del club",
+  "2% shopping reward": "2% de recompensa en compras",
+  "Events and exclusive prices": "Eventos y precios exclusivos para Socios Plus",
+  "100% satisfaction guarantee": "Garantía de satisfacción al 100%",
+  "200% satisfaction guarantee in perishables": "Garantía de satisfacción al 200% en perecederos",
+  "Access to special price coupon book": "Acceso a cuponera especial de precios",
+  "Exclusive savings with Sam's Club Travel": "Ahorros exclusivos con Sam's Club Viajes",
+  "Features": "Ventajas",
+  "userMessagesUnread": "Hola <1>{{name}}</1>, tu tienes {{count}} mensajes sin leer. <5>Ir a mensajes</5>Test"
+}
