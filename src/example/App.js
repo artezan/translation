@@ -3,16 +3,7 @@ import es from '../data/es.json'
 import en from '../data/en.json'
 import {TranslationProvider, useTranslation, Trans} from '../translation'
 
-const TranslationToogle = () => {
-  const {setLanguage, currentLang, t} = useTranslation()
-  const changeLang = () => setLanguage(currentLang === 'en' ? 'es' : 'en')
 
-  return (
-    <button onClick={changeLang}>{`${t('Language')}: ${
-      currentLang === 'en' ? 'English' : 'Español'
-    }`}</button>
-  )
-}
 
 /**
  * Simple example of t()
@@ -72,6 +63,21 @@ const Memberships = () => {
     </>
   )
 }
+
+/**
+ * Change Lang
+ */
+const TranslationToogle = () => {
+  const {setLanguage, currentLang, t} = useTranslation()
+  const changeLang = () => setLanguage(currentLang === 'en' ? 'es' : 'en')
+
+  return (
+    <button onClick={changeLang}>{`${t('Language')}: ${
+      currentLang === 'en' ? 'English' : 'Español'
+    }`}</button>
+  )
+}
+
 /**
  * (OPTIONAL)
  * Example with Trans component
